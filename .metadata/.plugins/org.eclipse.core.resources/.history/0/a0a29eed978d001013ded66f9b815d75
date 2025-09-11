@@ -1,0 +1,11 @@
+package operators;
+
+public class IncrementDecrementOperator {
+public static void main(String[] args) {
+	int num1 = 5;
+	System.out.println(num1++);// then 6
+	System.out.println(++num1);//7
+	System.out.println(num1--);//7 then6
+	System.out.println(--num1);//5
+}
+}

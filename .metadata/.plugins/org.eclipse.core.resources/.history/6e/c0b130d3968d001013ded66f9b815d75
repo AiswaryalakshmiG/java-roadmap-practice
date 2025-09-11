@@ -1,0 +1,15 @@
+package operators;
+
+public class BitwiseOperator {
+public static void main(String[] args) {
+	int num1 = 5;//0101
+	int num2 = 3;//0011
+	
+	System.out.println(num1&num2);
+	System.out.println(num1|num2);
+	System.out.println(num1^num2);
+	System.out.println(~num1);
+	System.out.println(num1<<1);
+	System.out.println(num1>>1);
+}
+}

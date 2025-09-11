@@ -1,0 +1,8 @@
+package operators;
+
+public class ConditionalOperator {
+public static void main(String[] args) {
+	int tamil = 90, english = 95;
+	
+}
+}

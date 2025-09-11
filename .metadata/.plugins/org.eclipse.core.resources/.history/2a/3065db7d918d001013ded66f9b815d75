@@ -1,0 +1,10 @@
+package datatypes;
+
+public class TypeCastingExample {
+	public static void main(String[] args) {
+		int number = 130;
+		byte smallNumber = (byte) number; // narrowing type cast
+		System.out.println("Original int value: " + number);
+		System.out.println("After casting to byte: " + smallNumber);
+	}
+}

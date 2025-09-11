@@ -1,0 +1,13 @@
+package operators;
+
+public class IncrementDecrementOperator {
+public static void main(String[] args) {
+	int num1 = 5;
+	num1++;
+	System.out.println(num1);// postfix
+	++num1;
+	System.out.println(num1);//prfix
+	System.out.println(num1--);//7 then6
+	System.out.println(--num1);//5
+}
+}

@@ -1,0 +1,21 @@
+package conditionalstatement;
+
+public class DecisionMaking {
+public static void main(String[] args) {
+	int age = 17;
+	if(age >=18)
+		System.out.println("You are eligible to vote");
+	else
+		System.out.println("You are not eligible to vote");
+	
+	int total = 420;
+	if(total>=450)
+		System.out.println("Grade A");
+	else if(total>=400)
+	System.out.println("Grade B");
+	else if(total>=300)
+		System.out.println("Grade C");
+	else
+		System.out.println("Grade D");
+}
+}
